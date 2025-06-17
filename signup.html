@@ -1,0 +1,26 @@
+<div class="form-modal" id="signupModal">
+  <div class="form-box">
+    <span class="close" onclick="closeForm('signupModal')">&times;</span>
+    <h2>Sign Up</h2>
+    <form>
+      <div class="input-icon">
+        <i class="fas fa-user left-icon"></i>
+        <input type="text" placeholder="Full Name" required />
+      </div>
+      <div class="input-icon">
+        <i class="fas fa-envelope left-icon"></i>
+        <input type="email" placeholder="Email" required />
+      </div>
+      <div class="input-icon">
+        <i class="fas fa-lock left-icon"></i>
+        <input type="password" placeholder="Password" id="signupPass" required />
+        <i class="fas fa-eye toggle-password right-icon" onclick="togglePassword('signupPass', this)"></i>
+      </div>
+      <div class="input-icon">
+        <i class="fas fa-lock left-icon"></i>
+        <input type="password" placeholder="Confirm Password" required />
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>

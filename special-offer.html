@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Readlify / Best Book Store Website</title>
+        <script>
+  let flashDeadline = new Date().getTime() + 60 * 60 * 1000; // 1 hour from now
+
+  let flashInterval = setInterval(function () {
+    let now = new Date().getTime();
+    let distance = flashDeadline - now;
+
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    const hoursEl = document.getElementById("flash-hours");
+    const minutesEl = document.getElementById("flash-minutes");
+    const secondsEl = document.getElementById("flash-seconds");
+
+    if (hoursEl && minutesEl && secondsEl) {
+      hoursEl.textContent = String(hours).padStart(2, '0');
+      minutesEl.textContent = String(minutes).padStart(2, '0');
+      secondsEl.textContent = String(seconds).padStart(2, '0');
+    }
+
+    if (distance < 0) {
+      clearInterval(flashInterval);
+      const timerEl = document.getElementById("flashsale-timer");
+      if (timerEl) {
+        timerEl.textContent = "EXPIRED";
+      }
+    }
+  }, 1000);
+</script>
+
+    </head>
+    <body>
+        <!--Header Section Start-->
+        <header>
+            <div class = "nav_container">
+                <div class="col">
+                    <div class="logo_container">
+                        <img src="images/book_logo.jpg" alt="logo" class="logo">
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="menu_container">
+                    <ul class="menu_list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="special-offer.html">Special Offers</a></li>
+                        <li><a href="flash-sale.html">Flash Sales</a></li>
+                        <li><a href="book.html">Books On Sale</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+                <div class="btn_container">
+                    <button class="login_btn">Log In</button>
+                    <button class="signup_btn">Sign Up</button>
+                </div>
+            </div>
+        </header>
+
+<section class="special_offer_section">
+  <div class="offer_container">
+    <h2>🔥 Special Offers</h2>
+    <p>Grab these limited-time deals before they're gone!</p>
+
+    <div class="offer_items">
+      <div class="offer_card">
+        <img src="images/book12.jpg" alt="Offer Book 1">
+        <h3>Lord City:Shree Krishna</h3>
+        <p><del>$20.00</del> <strong>$10.00</strong></p>
+        <button class="buy_now">Buy Now</button>
+      </div>
+      
+      <div class="offer_card">
+        <img src="images/book11.jpg" alt="Offer Book 2">
+        <h3>Why I Am Hindu</h3>
+        <p><del>$15.00</del> <strong>$7.50</strong></p>
+        <button class="buy_now">Buy Now</button>
+      </div>
+
+      <!-- Add more offer cards as needed -->
+    </div>
+
+    <div id="flashsale-timer" class="flashsale-timer">
+      <span id="flash-hours">00</span> :
+      <span id="flash-minutes">00</span> :
+      <span id="flash-seconds">00</span>
+    </div>
+  </div>
+</section>
+<!--footer section start-->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-about">
+      <h3>About Readlify</h3>
+      <p>Readlify is your ultimate online destination for discovering amazing books across all genres. We are passionate about connecting readers with stories that inspire, educate, and entertain.</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Special Offers</a></li>
+        <li><a href="#">Flash Sales</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p><i class="fas fa-map-marker-alt"></i> 123 Book Street, Reading City, 45678</p>
+      <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+      <p><i class="fas fa-envelope"></i> support@readlify.com</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Readlify. All rights reserved. Design by <a href="#" target="_blank" rel="noopener noreferrer">Janvi Lumbhani</a></p>
+  </div>
+</footer>
+
+<!--footer section end-->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script src="javascript.js"></script>
+    </body>
+</html>
