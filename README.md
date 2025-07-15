@@ -44,8 +44,42 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/readlify-bookstore.git
+git clone https://github.com/CodeWithJanvi/Readlify-Book-Store-Website.git
 
 # Open index.html in your browser
 cd readlify-bookstore
 open index.html
+
+readlify-bookstore/
+│
+├── index.html
+├── about.html
+├── blog.html
+├── contact.html
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── img/
+│   │   └── [book images, banners, logos...]
+│   └── swiper/
+│       └── [swiper.min.css/js]
+
+
+🛠️ Customization
+📘 To add more books: edit the index.html book section and add new cards.
+
+🖼️ To change slider images: modify the Swiper container in the HTML and update image paths.
+
+🧾 To update blog content: modify blog.html and the blog section in index.html.
+
+🧑‍💻 Author
+Janvi Lumbhani
+CodeWithJanvi |lumbhanijanvi59@gmail.com  | https://www.linkedin.com/in/janvi-lumbhani-1580ab2a9/
+
+📜 License
+This project is open-source and available under the MIT License.
+
+
