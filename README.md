@@ -8,9 +8,6 @@
 
 👉 [View Live Website on Netlify](https://687632dc021ae635c1b713be--readlifybookstorewebsite.netlify.app/)
 
-
-
-
 ---
 
 ## 📦 Features
@@ -35,6 +32,7 @@
 - Bootstrap 4/5  
 - Swiper.js (for carousels/sliders)  
 - Font Awesome (for icons)  
+
 ---
 
 ## 🚀 Getting Started
@@ -45,16 +43,19 @@ To run this project locally:
 # Clone the repository
 git clone https://github.com/CodeWithJanvi/Readlify-Book-Store-Website.git
 
-# Open index.html in your browser
-cd readlify-bookstore
+# Navigate to the project folder
+cd Readlify-Book-Store-Website
+
+# Open the index.html file in your browser
 open index.html
+```
 
 ---
 
+## 📁 Folder Structure
 
-📁 Folder Structure
-
-readlify-bookstore/
+```
+Readlify-Book-Store-Website/
 │
 ├── index.html
 ├── about.html
@@ -69,27 +70,28 @@ readlify-bookstore/
 │   ├── img/
 │   │   └── [book images, banners, logos...]
 │   └── swiper/
-│       └── [swiper.min.css/js]
+│       └── [swiper.min.css, swiper.min.js]
+```
 
 ---
 
-🛠️ Customization
+## 🛠️ Customization
 
-📘 To add more books: edit the index.html book section and add new cards.
-
-🖼️ To change slider images: modify the Swiper container in the HTML and update image paths.
-
-🧾 To update blog content: modify blog.html and the blog section in index.html.
+- 📘 **Add More Books**: Edit the `index.html` book section and add new cards.
+- 🖼️ **Change Slider Images**: Modify the Swiper container in the HTML and update image paths.
+- 🧾 **Update Blog Content**: Modify `blog.html` and the blog section in `index.html`.
 
 ---
 
-🧑‍💻 Author
-Janvi Lumbhani
-CodeWithJanvi |lumbhanijanvi59@gmail.com  | https://www.linkedin.com/in/janvi-lumbhani-1580ab2a9/
+## 🧑‍💻 Author
+
+**Janvi Lumbhani**  
+📧 lumbhanijanvi59@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/janvi-lumbhani-1580ab2a9/)  
+💻 [CodeWithJanvi](https://github.com/CodeWithJanvi)
 
 ---
 
-📜 License
-This project is open-source and available under the MIT License.
+## 📜 License
 
-
+This project is open-source and available under the [MIT License](LICENSE).
