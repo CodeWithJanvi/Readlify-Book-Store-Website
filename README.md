@@ -50,6 +50,11 @@ git clone https://github.com/CodeWithJanvi/Readlify-Book-Store-Website.git
 cd readlify-bookstore
 open index.html
 
+---
+
+
+📁 Folder Structure
+
 readlify-bookstore/
 │
 ├── index.html
@@ -67,17 +72,23 @@ readlify-bookstore/
 │   └── swiper/
 │       └── [swiper.min.css/js]
 
+---
 
 🛠️ Customization
+
 📘 To add more books: edit the index.html book section and add new cards.
 
 🖼️ To change slider images: modify the Swiper container in the HTML and update image paths.
 
 🧾 To update blog content: modify blog.html and the blog section in index.html.
 
+---
+
 🧑‍💻 Author
 Janvi Lumbhani
 CodeWithJanvi |lumbhanijanvi59@gmail.com  | https://www.linkedin.com/in/janvi-lumbhani-1580ab2a9/
+
+---
 
 📜 License
 This project is open-source and available under the MIT License.
