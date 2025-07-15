@@ -35,7 +35,6 @@
 - Bootstrap 4/5  
 - Swiper.js (for carousels/sliders)  
 - Font Awesome (for icons)  
-
 ---
 
 ## 🚀 Getting Started
